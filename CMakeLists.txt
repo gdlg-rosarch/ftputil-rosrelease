@@ -12,6 +12,14 @@ find_package(catkin REQUIRED COMPONENTS
     catkin_pip
 )
 
+# Building docs first (necessary for package given current setup.py)
+execute_process(
+    COMMAND bash "-c" "pushd ${CMAKE_SOURCE_DIR} && make docs && popd"
+    WORKING_DIR ${CMAKE_SOURCE_DIR}
+    COMMENT "Generating package documentation..."
+)
+# TODO : add a dependency on the install target ?
+
 # defining current package as a package that should be managed by pip (not catkin - even though we make it usable with workspaces)
 catkin_pip_setup()
 catkin_package()
