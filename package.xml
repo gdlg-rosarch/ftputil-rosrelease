@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<package format="2">
+  <!--
+   This file is mostly here to provide ros dependencies when this project is built with catkin
+   -->
+  <name>ftputil</name>
+  <version>3.3.0</version>
+  <description>
+  a high-level FTP client library for Python
+  </description>
+
+  <license>BSD</license>
+
+  <url type="repository">http://hg.sschwarzer.net/ftputil</url>
+  <url type="bugtracker">http://ftputil.sschwarzer.net/trac/wiki/IssueTracker</url>
+
+  <author>Stefan Schwarzer</author>
+  <maintainer email="asmodehn@gmail.com">AlexV</maintainer>
+
+  <buildtool_depend version_gte="0.6.18">catkin</buildtool_depend>
+  <build_depend version_gte="0.1.15">catkin_pip</build_depend>
+
+  <export>
+    <rosdoc external_url="http://ftputil.sschwarzer.net/trac/wiki/Documentation" />
+  </export>
+
+</package>
+
+
