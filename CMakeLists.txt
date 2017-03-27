@@ -21,8 +21,7 @@ execute_process(
 # TODO : add a dependency on the install target ?
 
 # defining current package as a package that should be managed by pip (not catkin - even though we make it usable with workspaces)
-catkin_pip_setup()
-catkin_package()
+catkin_pip_package(ftputil)
 
 ## Unit tests
 if (CATKIN_ENABLE_TESTING)
