@@ -1,3 +1,26 @@
+## ftputil (indigo) - 3.3.0-2
+
+The packages in the `ftputil` repository were released into the `indigo` distro by running `/usr/bin/bloom-release --rosdistro indigo --track indigo ftputil` on `Mon, 27 Mar 2017 08:19:34 -0000`
+
+The `ftputil` package was released.
+
+Version of package(s) in repository `ftputil`:
+
+- upstream repository: http://hg.sschwarzer.net/ftputil
+- release repository: https://github.com/asmodehn/ftputil-rosrelease.git
+- rosdistro version: `3.3.0-1`
+- old version: `3.3.0-1`
+- new version: `3.3.0-2`
+
+Versions of tools used:
+
+- bloom version: `0.5.25`
+- catkin_pkg version: `0.3.1`
+- rosdep version: `0.11.5`
+- rosdistro version: `0.6.1`
+- vcstools version: `0.1.39`
+
+
 ## ftputil (indigo) - 3.3.0-1
 
 The packages in the `ftputil` repository were released into the `indigo` distro by running `/usr/bin/bloom-release --rosdistro indigo --track indigo ftputil` on `Wed, 21 Dec 2016 08:43:40 -0000`
