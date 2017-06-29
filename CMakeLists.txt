@@ -14,8 +14,8 @@ find_package(catkin REQUIRED COMPONENTS
 
 # Building docs first (necessary for package given current setup.py)
 execute_process(
-    COMMAND bash "-c" "pushd ${CMAKE_SOURCE_DIR} && make docs && popd"
-    WORKING_DIR ${CMAKE_SOURCE_DIR}
+    COMMAND bash "-c" "pushd ${CMAKE_CURRENT_LIST_DIR} && make docs && popd"
+    WORKING_DIR ${CMAKE_CURRENT_LIST_DIR}
     COMMENT "Generating package documentation..."
 )
 # TODO : add a dependency on the install target ?
