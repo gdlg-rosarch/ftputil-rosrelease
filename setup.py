@@ -11,7 +11,7 @@ from __future__ import print_function
 import os
 import sys
 
-from distutils import core
+from setuptools import setup
 
 
 _name = "ftputil"
@@ -33,7 +33,7 @@ if "install" in sys.argv[1:] and not doc_files_are_present:
     print("Please generate them with `make docs`.")
     sys.exit(1)
 
-core.setup(
+setup(
   # Installation data
   name=_name,
   version=_version,
