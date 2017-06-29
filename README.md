@@ -1,3 +1,26 @@
+## python-ftputil (kinetic) - 3.3.0-1
+
+The packages in the `python-ftputil` repository were released into the `kinetic` distro by running `/usr/bin/bloom-release --rosdistro kinetic --track kinetic python-ftputil` on `Thu, 29 Jun 2017 02:23:54 -0000`
+
+The `python-ftputil` package was released.
+
+Version of package(s) in repository `python-ftputil`:
+
+- upstream repository: http://hg.sschwarzer.net/ftputil
+- release repository: unknown
+- rosdistro version: `null`
+- old version: `3.3.0-0`
+- new version: `3.3.0-1`
+
+Versions of tools used:
+
+- bloom version: `0.5.26`
+- catkin_pkg version: `0.3.5`
+- rosdep version: `0.11.5`
+- rosdistro version: `0.6.2`
+- vcstools version: `0.1.39`
+
+
 ## python-ftputil (kinetic) - 3.3.0-0
 
 The packages in the `python-ftputil` repository were released into the `kinetic` distro by running `/usr/bin/bloom-release --rosdistro kinetic --track kinetic python-ftputil` on `Thu, 29 Jun 2017 02:14:58 -0000`
