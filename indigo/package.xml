@@ -3,7 +3,7 @@
   <!--
    This file is mostly here to provide ros dependencies when this project is built with catkin
    -->
-  <name>ftputil</name>
+  <name>python-ftputil</name>
   <version>:{version}</version>
   <description>
   a high-level FTP client library for Python
